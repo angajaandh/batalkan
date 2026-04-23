@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-mandiri-blue: #002D5C;
+  --color-mandiri-light-blue: #004D99;
+  --color-mandiri-gold: #FF9E1B;
+  --color-mandiri-footer: #2467ab;
+}
+
+:root {
+  --background: #eef4f9;
+  --foreground: #171717;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Security Overlay Background Pattern */
+.security-pattern {
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(0, 45, 92, 0.05),
+    rgba(0, 45, 92, 0.05) 10px,
+    rgba(255, 158, 27, 0.05) 10px,
+    rgba(255, 158, 27, 0.05) 20px
+  );
+}

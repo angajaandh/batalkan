@@ -1,0 +1,6 @@
+{
+  "name": "Mandiri - Pembatalan Transaksi",
+  "description": "Layanan pembatalan transaksi Bank Mandiri mandiri online.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
